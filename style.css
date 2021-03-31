@@ -275,6 +275,10 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -326,6 +330,11 @@ a:hover {
     float: left;
     margin-top: 4px;
     font-size: 16px;
+
+    list-style-type: none;
+}
+.nav > li a {
+    text-decoration: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -698,7 +707,9 @@ p {
     font-size: 16px;
     font-weight: 700;
 }
-
+.fa {
+    padding-right: 10px;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -741,6 +752,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -771,15 +783,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #b9301e;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #e6b20a!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #b9301e;
     color: #FFFFFF!important;
 }
 
@@ -797,7 +809,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #b9301e!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -873,8 +885,8 @@ h4 {
         position: relative;
     }
     .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -884,8 +896,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
