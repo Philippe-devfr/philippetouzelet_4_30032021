@@ -90,10 +90,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/* .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+} */
 
 .b-parallax {
     background-attachment: fixed;
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc .a-btn:hover,
@@ -686,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -783,15 +783,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #b9301e;
+    background-color: #761F13;
 }
 
 .tc-white {
-    color: #e6b20a!important;
+    color: #faff00!important;
 }
 
 .btn-atomic-tangerine {
-    background: #b9301e;
+    background: #761F13;
     color: #FFFFFF!important;
 }
 
@@ -821,9 +821,9 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+} */
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
